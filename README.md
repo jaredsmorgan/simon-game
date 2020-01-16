@@ -9,7 +9,7 @@ game with a simple, clean design.
 
 ## Features
 
-This game features reactive, light up buttons that will respond when clicked or held. Also featured under the instructions button, is a pop-up set of instructions that are in no way impeded by the game board, so you can read them in peace. when starting the game, the instructions will automatically find themselves back under the instructions button for later use. New features include, a dynamic scoreboard that saves your highscore, even when exiting the browser. Also, a custom pop-up for when the player loses, instead of an alert message.
+This game features reactive, light up buttons that respond when clicked or held. Also featured under the instructions button, is a pop-up set of instructions that are in no way impeded by the game board, so you can read them in peace. when starting the game, the instructions will automatically find themselves back under the instructions button for later use. New features include, a dynamic scoreboard that saves your high score, even when exiting the browser. Also, a custom pop-up for when the player loses, instead of an alert message.
 
 ## Bronze Level
 
@@ -21,7 +21,7 @@ At silver level, the game had a functioning start button which reset the game, a
 
 ## Gold Level
 
-At gold level, there is still some left to be desired for future updates. As of now, the game has improved very much stylistically. The instructions now appear only when called by their labeled button under the title, and the game has been been completely redisigned to be larger, but still fit an average computer browser. The game is now more reminiscent of the original Simon game currently owned by Hasbro. The background has been applied to appear as a wood grain table top. The title and instructions have been given an attractive background to continue to be readable without being too gaudy, or showy.
+At gold level, there is still some left to be desired for future updates. As of now, the game has improved very much stylistically. The instructions now appear only when called by their labeled button under the title, and the game has been been completely redesigned to be larger, but still fit an average computer browser. The game is now more reminiscent of the original Simon game currently owned by Hasbro. The background has been applied to appear as a wood grain table top. The title and instructions have been given an attractive background to continue to be readable without being too gaudy, or showy.
 
 #### Future Features
 
@@ -42,4 +42,4 @@ A standard implementation of:
 
 ## Contributions
 
-To contribute to this game, please only use lnaguages as already provided. Any improvements, bug find or fixes, or suggested improvements are to be added to this repo as an [issue](https://github.com/danielfruth/simon-game/issues).
+To contribute to this game, please only use languages as already provided. Any improvements, bug find or fixes, or suggested improvements are to be added to this repo as an [issue](https://github.com/danielfruth/simon-game/issues).
