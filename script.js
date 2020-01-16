@@ -31,6 +31,8 @@ gameButtons.addEventListener('mousedown', highlight);
 gameButtons.addEventListener('mouseup', removeHighlight);
 gameButtons.addEventListener('mouseout', removeHighlight);
 
+// Great looking code. Consider refactoring gameBoard and/or buttons using OOP to make DRYer.
+
 // this function makes it possible to view the instructions on
 // the same page, without  distraction.
 function peek() {
@@ -38,6 +40,8 @@ function peek() {
   gameBoard.style.display = 'none';
   instructionsButton.style.display = 'none';
 }
+
+// For your hightlight and removeHighlight functions consider using HSL (instead of HEX) and adjust the Lightness in a more procedural way. Combined with event propagation that could eliminate the need for separate IF statements for each color.
 
 // only runs for visible interaction. does not affect game logic.
 // lights up buttons when clicked.
@@ -66,7 +70,7 @@ function removeHighlight(evt) {
   }
 }
 
-// initailize game
+// initialize game
 function startGame() {
   instructions.style.display = 'none';
   gameBoard.style.display = 'flex';
@@ -86,7 +90,9 @@ function lightButtons() {
   compArray.forEach(lightMe);
 }
 
-// Sage Kearney helped with the iterarion pause on my forEach method by
+// Consider adding sound effects for additional interaction cues.
+
+// Sage Kearney helped with the iteration pause on my forEach method by
 // linking me to https://travishorn.com/delaying-foreach-iterations-2ebd4b29ad30
 function lightMe(buttonNum, i) {
   setTimeout(() => {
